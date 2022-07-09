@@ -1,6 +1,5 @@
 import './section.css'
 export function ReviewSection(props) {
-    console.log(props.title);
     return(
         <div className='section'>
             <>
