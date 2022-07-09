@@ -6,7 +6,7 @@ import './movieContainer.css'
 
 
 export function MovieContainer(props){
-    console.log(props.value.year)
+    console.log(props.value.reviews)
     return (
         <div className= 'container'>
             <MovieSection name='Movie' title={props.value.title} year={props.value.year} image= {props.value.image} rating= {props.value.rating}/>

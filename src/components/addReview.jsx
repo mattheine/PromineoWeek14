@@ -3,7 +3,7 @@ export function AddReview(props) {
   return (
     <div className="section">
       <>
-      <h5 style={{marginTop: '7px'}}>{props.title}</h5>
+      <h5 style={{marginTop: '7px'}}>{props.name}</h5>
         <div>
             <span>How was the movie?</span>
         <select>
